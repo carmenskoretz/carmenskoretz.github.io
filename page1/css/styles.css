@@ -26,6 +26,8 @@ body { /*to fill the initial gap*/
   font-size: 12px;
   width: 10%;
   display: inline-block;
+    margin-top:10px;
+
 }
 
 .tablink:hover {
@@ -33,6 +35,7 @@ body { /*to fill the initial gap*/
 }
 
 /*Sidebar Code*/
+
 
 .sidebar {
 font-family: Arial, Helvetica, sans-serif;
@@ -44,10 +47,11 @@ margin-top: 15px;
 }
 
 .list {
-  background-color: #f4f4f4;
-padding: 14px 20px;
-margin: 4px;
+  background-color: #DCF3F7;
+  padding: 14px 20px;
+  margin: 4px;
   font-size: 17px;
+  text-align: center;
   width: 250px;
 }
 
@@ -81,19 +85,6 @@ padding: 10px;
 padding-left: 20px;
 }
 
-.third {
-  width: 700px;
- margin-left: 25%;
-margin-right: 25%;
-margin-top:2%;
-margin-bottom: 2%;
-border-style: solid;
-border-width :2px;
-border-color: lightgrey;
-padding: 10px;
-padding-left: 20px;
-}
-
 .name {
 font-family: arial, Helvetica, sans-serif;
 font-size: 20px;
@@ -114,20 +105,7 @@ font-size: 15px;
   vertical-align: middle;
 }
 
-.time {
- margin: 5px;
-  font-family: arial, Helvetica, sans-serif;
-  font-size: 13px;
-  font-weight: lighter; 
-}
 
-.hide {
-  margin: 0px;
-  font-family: arial, Helvetica, sans-serif;
-  text-align: right;
-  font-size: 13px;
-  font-weight: lighter;
-}
 
 /*Share A Post code*/
 
@@ -141,16 +119,13 @@ height: 155px;
 margin-left: 25%;
 margin-right: 25%;
 margin-top:2%;
-border-style: solid;
-border-width :2px;
-border-color: lightgrey;
 padding: 10px;
 padding-left: 10px;
 }
 
 .smallBox {
 width: 690px;
-height: 70px;
+height: 50px;
 border-style: solid;
 border-width :2px;
 border-color: lightgrey;
@@ -176,4 +151,3 @@ padding: 10px 20px;
 margin: 10px;
 float:right;
 }
-
